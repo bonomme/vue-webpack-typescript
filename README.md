@@ -9,8 +9,8 @@
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ npm install -g vue-cli
-$ vue init ducksoupdev/vue-webpack-typescript my-project
+$ npm install -g vue-cli qunitjs vorlon
+$ vue init bonomme/vue-webpack-typescript my-project
 $ cd my-project
 $ npm install
 $ npm run dev
