@@ -26,9 +26,6 @@
     "process:html": "htmlprocessor src/index.html -o dist/index.html",
     "sass": "node-sass --output ./src/css ./src/sass",
     "serve": "http-server dist/ -o"
-    // "test": "cross-env NODE_ENV=development karma start karma.unit.js",
-    // "test:debug": "cross-env NODE_ENV=development karma start karma.debug.js",
-    // "test:watch": "cross-env NODE_ENV=development karma start karma.unit.js --singleRun=false --auto-watch"
   },
   "dependencies": {
     "bulma": "0.4.2",
