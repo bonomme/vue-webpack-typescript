@@ -2,14 +2,15 @@ import Vue from 'vue';
 import { Component, watch } from 'vue-property-decorator';
 
 @Component({
-    template: '../template/navbar.html'
+    template: require('../template/navbar.html')
 })
 export class NavbarComponent extends Vue {
     links = [
-        new navLink("Home", "/")
+        new NavLink('Home', '/')
     ];
 
     @watch('$route.path')
+    
     pathChanged() {
     }
 
@@ -17,7 +18,7 @@ export class NavbarComponent extends Vue {
     }
 }
 
-class navLink{
+class NavLink{
     name: string;
     path: string;
 
