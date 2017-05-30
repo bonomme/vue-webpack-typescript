@@ -5,9 +5,10 @@ import { NavbarComponent } from './components/navbar/component/navbar.component'
 import { HomeComponent } from './components/home/component/home.component';
 
 new Vue({
-  el: 'main-app',
+  el: '#main-app',
   router: router,
   components: {
-    'navbar': NavbarComponent
+    'navbar': NavbarComponent,
+    'home': HomeComponent
   }
 });
