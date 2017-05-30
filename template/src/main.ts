@@ -1,9 +1,9 @@
 import * as Vue from 'vue';
 import { router } from './conf/routes';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/component/navbar.component';
 
 new Vue({
-  el: '#app-main',
+  el: 'main-app',
   router: router,
   components: {
     'navbar': NavbarComponent
