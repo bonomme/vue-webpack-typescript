@@ -1,7 +1,7 @@
 const helpers = require("./helpers"),
   webpackConfig = require("./webpack.config.base"),
   DefinePlugin = require('webpack/lib/DefinePlugin'),
-  env = require('../src/env/dev.env');
+  env = require('../src/conf/env/dev.env');
 
 webpackConfig.devServer = {
   port: 8080,
