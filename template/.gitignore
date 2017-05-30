@@ -6,4 +6,6 @@ src/css
 src/**/*.js
 src/**/*.map
 *.log
-src/assets/img/*
+src/assets/img/*.png
+src/assets/img/*.jpg
+src/assets/img/*.jpeg
