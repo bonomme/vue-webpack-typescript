@@ -2,7 +2,7 @@ import Vue from 'vue';
 import { Component, watch } from 'vue-property-decorator';
 
 @Component({
-    template: require('../template/navbar.html')
+    template: require('../template/navbar.template.html')
 })
 export class NavbarComponent extends Vue {
     links = [
@@ -10,7 +10,7 @@ export class NavbarComponent extends Vue {
     ];
 
     @watch('$route.path')
-    
+
     pathChanged() {
     }
 
