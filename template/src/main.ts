@@ -1,4 +1,4 @@
-import * as Vue from 'vue';
+import Vue, * as VueTypes from 'vue';
 import VueRouter from 'vue-router';
 import { router } from './conf/routes';
 import { NavbarComponent } from './components/navbar/component/navbar.component';

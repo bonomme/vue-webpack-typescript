@@ -20,15 +20,6 @@ npm test
 # run the tests on changes
 npm run test:watch
 
-# run the test suite and generate a coverage report
-npm run coverage
-
-# run the tests on Teamcity
-npm run ci:teamcity
-
-# run the tests on Jenkins
-npm run ci:jenkins
-
 # build for production with minification
 npm run build
 
